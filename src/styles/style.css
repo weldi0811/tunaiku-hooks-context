@@ -1,0 +1,195 @@
+.dropdown>.dropdown-menu {
+    top: 200%;
+    transition : 0.3s all ease-in-out;
+      width: 200px !important;
+      background-color: #002B46;
+  
+}
+.dropdown-content{
+  background-color: #202264
+}
+
+.no-line {
+  text-decoration: none;
+}
+
+.no-gap {
+  font-size: 0;
+}
+
+.bg-card {
+  background-color : #004C7B;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display : block;
+    top:100%
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events : none
+}
+.dropdown-toggle::after { 
+  content: none; 
+} 
+
+.custom-bg{
+  background: rgb(2,0,36);
+  background: linear-gradient(36deg, rgba(2,0,36,1) 0%, rgba(3,52,142,1) 0%, rgba(0,202,255,1) 100%);
+}
+
+.custom-bg2{
+  background : #E4E2E2
+}
+
+.containers{
+  border-radius: 15px;
+}
+
+.btn-go{
+  border-radius: 25px;
+}
+
+
+a.btnLogin {
+    border-style : solid;
+    border-width : 2px;
+    border-radius : 5px;
+    border-color: aliceblue;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.f-dropdown .divider {
+    border-top : solid 1px white;
+    clear : both;
+    height : 1px;
+    width: 100%;
+}
+
+.dropdowntag {
+    font-size : 10px
+}
+.dropdowntag2 {
+    font-size : 10px
+}
+
+.dropdown-item {
+    font-size : 14px;
+}
+
+.button {
+    border-radius : 5px
+}
+
+.has-error{
+    border: 1px solid #f44336;
+}
+
+.header-bg{
+  background-color: #002B46;
+}
+
+.form-message {
+    font-size: 12px;
+    padding-top: 2px;
+  }
+  .form-message.valid {
+    color: #4caf50;
+  }
+  .form-message.invalid {
+    color: #f44336;
+  }
+
+
+  .intro {
+    background-color: yellow;
+  }
+  .container {
+    margin: 20px auto;
+  }
+  .form {
+    padding: 200px;
+  }
+  .field {
+    display: block;
+    width: 100%;
+  }
+  .text_field {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .field_text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: red;
+    background-color: #ff9999;
+  }
+  
+  .button {
+    background-color: #6666ff;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    border: solid 2px #6666ff;
+    margin: 10px;
+  }
+  
+  .submit_button {
+    background-color: #00ff00;
+    border: solid 2px #00ff00;
+  }
+  
+  .output {
+    background-color: grey;
+    color: white;
+    display: block;
+    margin: 20px 250px;
+    white-space: pre;
+    padding: 20px;
+  }
+  
+  .overlay {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+  }
+
+  .font-small {
+    font-size : 13px
+  }
+
+  .padding-home {
+    padding-left : 100px;
+    padding-right : 100px
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
