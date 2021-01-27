@@ -17,7 +17,8 @@ const ApplyFormProvider = (props) => {
         birthDay: '',
         birthMonth: '',
         birthYear: '',
-        gender : ''
+        gender : '',
+        test : ''
     })
 
     const [selectedDate, setSelectedDate] = useState(new Date())
